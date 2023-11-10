@@ -2,6 +2,9 @@
 
 This Terraform script deploys a basic AWS infrastructure consisting of a Virtual Private Cloud (VPC), two subnets, an Internet Gateway, a Route Table, a Security Group, two EC2 instances, an Application Load Balancer (ALB), and associated resources. The ALB distributes traffic between the two EC2 instances.
 
+# Architecture
+![Architecture](img/terraform-aws-project1.png)
+
 ## Prerequisites
 
 Before running this Terraform script, ensure you have the following:
