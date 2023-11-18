@@ -35,21 +35,19 @@ resource "aws_subnet" "web_subnet" {
 }
 
 resource "aws_instance" "web" {
-  count         = "${var.instance_count}"
+  count                  = "${var.instance_count}"
   # lookup returns a map value for a given key
-  ami           = "${lookup(var.ami_ids, "us-west-2")}"
-  instance_type = "t2.micro"
+  ami                    = "${lookup(var.ami_ids, "us-west-2")}"
+  instance_type          = "t2.micro"
   # Use the subnet ids as an array and evenly distribute instances
-  subnet_id     = "${element(aws_subnet.web_subnet.*.id, count.index % length(aws_subnet.web_subnet.*.id))}"
+  subnet_id              = "${element(aws_subnet.web_subnet.*.id, count.index % length(aws_subnet.web_subnet.*.id))}"
   
   # Use instance user_data to serve the custom website
-  user_data     = "${file("user_data.sh")}"
+  user_data              = "${file("user_data.sh")}"
   
-  tags = {
-    Name = "Web Server ${count.index + 1}"
+  # Attach the web server security group
+  vpc_security_group_ids = ["${aws_security_group.web_sg.id}"]
+  tags = { 
+    Name = "Web Server ${count.index + 1}" 
   }
 }
-
-
-
-
