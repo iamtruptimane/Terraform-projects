@@ -15,9 +15,9 @@ variable instance_count {
 # Example of a map variable
 variable ami_ids {
   default = {
-    "us-west-2" = "ami-00448a337adc93c05"
+    "us-west-2" = "ami-093467ec28ae4fe03"
 
-    "us-east-1" = "ami-05c13eab67c5d8861"
+    "us-east-1" = "ami-0230bd60aa48260c6"
 
   }
 }
