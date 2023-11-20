@@ -17,7 +17,7 @@ login to the Amazon Web Services Console using your credentials.
 ## Step 2 : create an EC2 instance
 To create an EC2 instance using AWS console refrence the following project:
 
-[create an EC2 instance](/home/tejas/trupti_workspace/aws/create-EC2-instance)
+[create an EC2 instance](https://github.com/iamtruptimane/create-EC2-instance)
 
 ## Step 3 : Connecting to the Virtual Machine using EC2 Instance Connect.
 connect to the EC2 instance by clicking on connect button with EC2 instance connect.
