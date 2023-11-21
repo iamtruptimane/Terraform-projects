@@ -7,4 +7,5 @@ This repository is a single point access for all my terraform projects.
 4. [manage-aws-resources](/04-manage-aws-resources/)
 5. [deploy-highly-available-website](/05-deploy-highly-available-website/)
 6. [create-res-using-dynamic-blocks](/05-create-res-using-dynamic-block/)
+7. [deploying-vpc](/07-deploying-vpc/)
 
