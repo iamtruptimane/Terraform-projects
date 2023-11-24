@@ -7,7 +7,7 @@ An attractive feature of the cloud is that you can deploy applications in multip
 * Use user data to bootstrap web servers
 * Destroy infrastructure managed by Terraform
 
-#### **NOTE** : _Before starting this project refrence the resources that are created in the following terraform projects_ :
+#### **NOTE** : _Before starting this project reference the resources that are created in the following terraform projects_ :
 1. [03-create-aws-res-using-terraform](/03-create-aws-res-using-terraform/) 
 2. [04-manage-aws-resources](/04-manage-aws-resources/) 
 
@@ -15,7 +15,7 @@ An attractive feature of the cloud is that you can deploy applications in multip
 login to the Amazon Web Services Console using your credentials.
 
 ## Step 2 : create an EC2 instance
-To create an EC2 instance using AWS console refrence the following project:
+To create an EC2 instance using AWS console reference the following project:
 
 [create an EC2 instance](https://github.com/iamtruptimane/create-EC2-instance)
 
