@@ -18,7 +18,7 @@ Go to your AWS account and login with your credentials.
 ## Step 2: Create an EC2 instance.
 search EC2 service and create an EC2 instance.you can reference this link to create an EC2 instance.
 
-[create an EC2 instance](https://github.com/iamtruptimane/create-EC2-instance)
+[create an EC2 instance](https://github.com/iamtruptimane/create-an-EC2-instance)
 
 ## Step 3: Connect to the EC2 instance through EC2 instance connect.
 connect to the EC2 instance by clicking on connect button with EC2 instance connect.
