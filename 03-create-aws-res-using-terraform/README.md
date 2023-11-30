@@ -1,12 +1,12 @@
 # Creating AWS Resources with Terraform
 
 ## Project description
-Terraform is a tool for declaring and managing infrastructure as code. With Terraform you can write declarative configuration files, view execution plans, and apply plans to realize the infrastructure declared in the configuration files. An important advantage of Terraform is that is supports over 100 resource providers including the major public cloud providers, such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. In this Lab, you will learn the basics of working with Terraform and create an Amazon Virtual Private Cloud (VPC) with Terraform.
+Terraform is a tool for declaring and managing infrastructure as code. With Terraform you can write declarative configuration files, view execution plans, and apply plans to realize the infrastructure declared in the configuration files. An important advantage of Terraform is that is supports over 100 resource providers including the major public cloud providers, such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. In this project, you will learn the basics of working with Terraform and create an Amazon Virtual Private Cloud (VPC) with Terraform.
 
 ## Project Objectives
 * Install Terraform on Linux
 * Configure Terraform providers
-* Create AWS resources with Terraform
+* Create AWS resources with Terraform(VPC)
 
 ## Project Prerequisites
 * Working at the command-line in Linux
